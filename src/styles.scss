@@ -1,1 +1,47 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  margin: 0;
+  padding: 0;
+
+  min-height: 100vh;
+  background: linear-gradient(180deg, white, #f0f7e9);
+}
+.navbar-brand{
+  color: white !important;
+}
+
+.nav-link{
+  color: white !important;
+}
+
+.p-inputtext {
+  width: 100% !important;
+}
+
+.p-button{
+  width: 100% !important;
+  background-color: black !important;
+  border: 1px solid black !important;
+  border-radius: 30px !important;
+}
+
+
+.p-datatable .p-datatable-thead > tr > th {
+  background: #252725 !important;
+  color: white !important;
+}
+
+.p-card{
+  border-radius: 15px !important;
+}
+
+.p-card{
+  box-shadow: 0 2px 1px 0px rgba(0, 0, 0, 0.2), 0 1px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12) !important;
+}
+
+.p-dropdown{
+  width: 100% !important;
+}
+
+.dislabel{
+  font-weight: 600 !important;
+}
