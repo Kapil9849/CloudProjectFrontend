@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class GlobalService{
 
-  api_endpoint:string="http://127.0.0.1:8000/";
+  api_endpoint:string="https://cloudprojectbacckend-bkgqcehdbngebxfd.centralus-01.azurewebsites.net/";
 
   constructor(private http:HttpClient) { }
 
